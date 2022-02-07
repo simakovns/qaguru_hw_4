@@ -4,11 +4,11 @@ public class House {
     private final String address;
     private final int numberOfLevels;
 
-    public String currentOwner = "";
-    public String color = "";
+    public String currentOwner;
+    public String color;
     public double cost;
-    public boolean hasElectricity = false;
-    public boolean isSold = false;
+    public boolean hasElectricity;
+    public boolean isSold;
 
     public House(final String address, final int numberOfLevels, final int initialCost) {
         this.address = address;
